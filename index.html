@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Editable project presentation for Startup Week 5"
+    />
+    <title>Startup Week 5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <span class="brand-mark">S</span>
+          <span>Startup Week 5</span>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#overview">Overview</a>
+          <a href="#features">Features</a>
+          <a href="#stack">Stack</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow">Simple project presentation</p>
+            <h1 id="project-title">Startup Week 5</h1>
+            <p class="lead" id="project-lead">
+              A clean and editable presentation for a simple startup project built with
+              modern web technologies.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#overview">View overview</a>
+              <a class="btn btn-secondary" href="#contact">Get in touch</a>
+            </div>
+          </div>
+
+          <div class="hero-panel" aria-label="Project summary card">
+            <div class="panel-header">
+              <span class="dot dot-blue"></span>
+              <span class="dot dot-purple"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <div class="panel-body">
+              <p class="mini-label">Project snapshot</p>
+              <h2>Launch-ready</h2>
+              <ul>
+                <li>Responsive layout</li>
+                <li>Modern color palette</li>
+                <li>Editable content blocks</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="overview" class="section overview">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Overview</p>
+            <h2>Project vision</h2>
+          </div>
+          <div class="overview-grid">
+            <article class="info-card large">
+              <h3>What this project is about</h3>
+              <p id="project-overview">
+                This project is a simple, clear, and professional presentation page that
+                explains the idea, goals, and value of the startup concept in a way that is
+                easy to share and edit.
+              </p>
+            </article>
+            <article class="info-card accent">
+              <h3>Core objective</h3>
+              <p>
+                Present the business concept in a polished way while keeping the site easy
+                to update for future improvements or pitch revisions.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section features">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Highlights</p>
+            <h2>Why this presentation works</h2>
+          </div>
+          <div id="feature-list" class="feature-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="stack" class="section stack">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Technology</p>
+            <h2>Built with a simple front-end stack</h2>
+          </div>
+          <div id="tech-list" class="tech-list" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s connect</h2>
+          </div>
+          <div class="contact-card">
+            <div>
+              <p class="mini-label">Email</p>
+              <a id="email-link" href="mailto:puotmalouyien@gmail.com">
+                puotmalouyien@gmail.com
+              </a>
+            </div>
+            <div>
+              <p class="mini-label">Phone</p>
+              <a id="phone-link" href="tel:+25498565702">+25498565702</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <p>© <span id="year"></span> Startup Week 5</p>
+        <p>Editable presentation</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
